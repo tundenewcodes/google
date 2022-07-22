@@ -13,7 +13,7 @@ const SearchResults = ({results}) => {
           <h2  className='truncate  text-xl text-blue-800  group-hover:underline  font-medium'>{item.title}</h2>
         </a>
       </div>
-<p   className='line-clamp-2'>{item.snippet}</p>
+      <p   className='line-clamp-2'>{item.snippet}</p>
       </div>
      ))}
      <PaginationButtons/>
